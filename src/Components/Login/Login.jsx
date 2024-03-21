@@ -67,8 +67,7 @@ function Login({ setShowLogin }) {
             setLoading(true);
             const userCredential = await signInWithEmailAndPassword(auth, userLogin.email, userLogin.password);
             
-            // Fetch user data and store in localStorage
-            const q = query(
+                const q = query(
                 collection(fireDB, "users"),
                 where('uid', '==', userCredential.user.uid)
             );

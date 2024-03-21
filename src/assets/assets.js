@@ -112,7 +112,7 @@ export const food_list =[
         _id:'7',
         name:'Tomato Pizza',
         image:food_3,
-        price:80,
+        price:380,
         details:'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.',
         rating:'3.9',
         category:'Pizza'
@@ -121,7 +121,7 @@ export const food_list =[
         _id:'8',
         name:'Cheese Pizza',
         image:food_3,
-        price:80,
+        price:260,
         details:'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.',
         rating:'4.1',
         category:'Pizza'
@@ -130,7 +130,7 @@ export const food_list =[
         _id:'9',
         name:'Chicken Pizza',
         image:food_3,
-        price:80,
+        price:320,
         details:'Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.',
         rating:'4.4',
         category:'Pizza'

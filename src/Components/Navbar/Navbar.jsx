@@ -9,10 +9,7 @@ import { Link } from 'react-router-dom'
 const Navbar = ({ setShowLogin }) => {
     const [isExpanded, setIsExpanded] = useState(false);
  
-    const toggleSearchBar = () => {
-        setIsExpanded(!isExpanded);
-    };
-    return (
+       return (
         <div className='Navbar'>
             <div className='navbar-left'>
                 <Link to="/">
